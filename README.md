@@ -14,10 +14,13 @@ Amazon Web Services - Elastic Beanstalk
 
 Personsearch uses a number of open source projects to work properly:
 
-* [AngularJS] - HTML enhanced for web apps!
-* [Angular Material] - great UI that use de Google Guidelines
+* [AngularJS] - HTML enhanced for web apps
+* [Angular Material] - great UI that use Google Guidelines
+* [Angular Resources]- great API call manager
 * [python2] - evented I/O for the backend
 * [Django] - fast high level Python Web framework
+* [Django RestFramework] - Django plugin for REST API with web console
+* [Django RestFramework Filters] - Django plugin for Search API
 
 
 ### Installation
@@ -28,9 +31,11 @@ Once you configure your [AWS account, credentials](https://aws.amazon.com/) and 
 virtualenv ps-virt
 source ps-virt/bin/activate
 pip install django
-mkdir personsearch
-cd personsearch
-git clone https://github.com/DKbyo/personsearch.git
+pip install djangorestframework
+pip install django-filter
+mkdir peoplesearch
+cd peoplesearch
+git clone https://github.com/DKbyo/peoplesearch.git
 ```
 
 ### Test
@@ -46,7 +51,7 @@ python manage.py runserver
 For deploy the app on your own AWS environment.
 
 ```sh
-eb init -p python2.7 personsearch
+eb init -p python2.7 peoplesearch
 eb create ps_env
 ```
 
