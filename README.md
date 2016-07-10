@@ -36,6 +36,7 @@ pip install django-filter
 mkdir peoplesearch
 cd peoplesearch
 git clone https://github.com/DKbyo/peoplesearch.git
+python manage.py collectstatic
 ```
 
 ### Test
@@ -64,5 +65,6 @@ eb open
 And you can update your changes
 
 ```sh
-eb update
+python manage.py collectstatic
+eb deploy
 ```
