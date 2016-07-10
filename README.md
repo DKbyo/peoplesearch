@@ -22,6 +22,11 @@ Personsearch uses a number of open source projects to work properly:
 * [Django RestFramework] - Django plugin for REST API with web console
 * [Django RestFramework Filters] - Django plugin for Search API
 
+### Example
+
+You can test the app in
+
+* [Amazon Web Service People Search](http://django-peoplesearch.szymaphwz3.us-west-2.elasticbeanstalk.com)
 
 ### Installation
 
