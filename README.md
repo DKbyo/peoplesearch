@@ -36,6 +36,7 @@ pip install django-filter
 mkdir peoplesearch
 cd peoplesearch
 git clone https://github.com/DKbyo/peoplesearch.git
+python manage.py collectstatic
 ```
 
 ### Test
