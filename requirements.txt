@@ -2,3 +2,6 @@ Django==1.9.2
 django-crispy-forms==1.6.0
 django-filter==0.13.0
 djangorestframework==3.3.3
+#Since Heroku don't have a static file server like AWS we need this
+whitenoise==2.0.6
+gunicorn==19.4.5
