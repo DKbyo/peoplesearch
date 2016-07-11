@@ -26,15 +26,19 @@ Personsearch uses a number of open source projects to work properly:
 
 You can test the app in
 
+#### Amazon
+
 * [Amazon Web Service People Search](http://django-peoplesearch.szymaphwz3.us-west-2.elasticbeanstalk.com)
 * [Amazon Web Service People API](http://django-peoplesearch.szymaphwz3.us-west-2.elasticbeanstalk.com/api/people/)
 * [Amazon Web Service People Upload API](http://django-peoplesearch.szymaphwz3.us-west-2.elasticbeanstalk.com/api/people/upload/)
 * [Amazon Web Service People All API](http://django-peoplesearch.szymaphwz3.us-west-2.elasticbeanstalk.com/api/people/all/)
 
-* [Heroky People Search](https://django-peoplesearch.herokuapp.com)
-* [Heroky People API](https://django-peoplesearch.herokuapp.com/api/people/)
-* [Heroky People People Upload API](https://django-peoplesearch.herokuapp.com/api/people/upload/)
-* [Heroky People People All API](https://django-peoplesearch.herokuapp.com/api/people/all/)
+#### Heroku
+
+* [Heroku People Search](https://django-peoplesearch.herokuapp.com)
+* [Heroku People API](https://django-peoplesearch.herokuapp.com/api/people/)
+* [Heroku People People Upload API](https://django-peoplesearch.herokuapp.com/api/people/upload/)
+* [Heroku People People All API](https://django-peoplesearch.herokuapp.com/api/people/all/)
 
 
 For upload you can generate a random database with this [awesome app](https://www.mockaroo.com/c54629c0) and paste the contents in the web UI People Upload REST API.
